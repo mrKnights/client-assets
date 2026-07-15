@@ -10,58 +10,6 @@ This repository contains publicly accessible static resources such as logos, ima
 
 The primary purpose of this repository is to provide a reliable, version-controlled, and CDN-compatible source for static assets that can be referenced directly from client projects.
 
-## Repository Structure
-
-Assets are organized by client and resource type to ensure consistency and simplify maintenance.
-
-Example:
-
-```text
-client-assets/
-├── client-name/
-│   ├── logos/
-│   ├── images/
-│   ├── icons/
-│   ├── banners/
-│   └── documents/
-├── another-client/
-│   ├── logos/
-│   ├── images/
-│   └── icons/
-└── shared/
-    ├── fonts/
-    ├── placeholders/
-    └── common/
-```
-
-## Asset Types
-
-This repository may include:
-
-* Company logos
-* Brand assets
-* Website images
-* Icons
-* Favicons
-* Background images
-* Banners
-* Illustrations
-* SVG graphics
-* WebP images
-* Marketing graphics
-* Public documents
-* Other static resources
-
-## Usage
-
-Assets are intended to be accessed directly from GitHub or through a CDN such as jsDelivr for integration into websites and applications.
-
-Example:
-
-```html
-<img src="https://cdn.jsdelivr.net/gh/USERNAME/client-assets@main/client-name/logos/logo.svg" alt="Company Logo">
-```
-
 ## Guidelines
 
 * Organize assets inside the corresponding client directory.
